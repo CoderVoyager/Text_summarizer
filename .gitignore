@@ -1,0 +1,25 @@
+# Ignore the myenv folder (virtual environment)
+myenv/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore IDE/Editor specific files (e.g., VS Code, PyCharm)
+.vscode/
+.idea/
+
+# Ignore system files (Windows, macOS, etc.)
+.DS_Store
+Thumbs.db
+
+# Ignore Python distribution and packaging files
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Ignore virtual environment for other common names
+venv/
